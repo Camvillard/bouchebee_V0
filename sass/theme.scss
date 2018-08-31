@@ -1,0 +1,19 @@
+/* --- DON'T CHANGE THE ORDER OF THOSE FILES --- */
+
+@import "variables/index";  // <--------- Custom variables into this file.
+@import "components/index";  // <--------- Custom variables into this file.
+@import "assets/bootstrap4";// <--------- Loads Bootstrap4.
+@import "understrap/understrap";// <-------- Loads the UnderStrap defaults.
+
+
+
+/* --- OPTIONAL ASSETS --- */
+@import "assets/font-awesome"; // <------- Font Awesome Icon font
+@import "assets/underscores"; // <------- Underscores media styles
+
+/* --- CUSTOM DESIGN --- */
+
+// this file compiles custom style opf the theme
+@import "theme/index";
+// this file compiles custom files for the plugins
+@import "plugins/index";
