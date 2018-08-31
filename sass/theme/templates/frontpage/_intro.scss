@@ -3,9 +3,14 @@
 #frontpage-intro {
   height: 100vh;
   background: $pink-bold;
+    padding: 20% 10%;
 
   h1 {
+  color: white;
+  font-size: $font-size-base * 4.2;
+  }
+  p.description {
     color: white;
-    
+    margin-left: 12%;
   }
 }

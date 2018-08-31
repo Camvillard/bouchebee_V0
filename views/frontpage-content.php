@@ -1,7 +1,7 @@
 <div id="frontpage-intro">
   <div class="frontpage-content">
     <h1>en voir de toutes les couleurs</h1>
-    <p>bouche bee c'est une trop cool boutique</p>
+    <p class="description">Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter.</p>
   </div>
 </div>
 
