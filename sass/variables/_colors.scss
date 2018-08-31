@@ -1,3 +1,19 @@
 /* ----- VARIABLES : COLORS ----- */
 
-$primary: red;
+
+$pink-bold: #ed325a;
+$yellow-bold: #fbd861;
+$blue-medium: #3dc1d3;
+$blue-midnight: #293649;
+
+
+$primary: $pink-bold;
+$secondary: $blue-midnight;
+
+
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-800 !default;
