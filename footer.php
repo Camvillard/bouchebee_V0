@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package understrap
+ * @package bouchebee
  */
 
 $container = get_theme_mod( 'understrap_container_type' );
@@ -45,4 +45,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 </body>
 
 </html>
-
