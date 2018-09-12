@@ -24,9 +24,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-						<?php understrap_site_info(); ?>
+						<div class="shop-adress">
+						 <p>bouche bee
+							 <br>3772, rue Ontario Est
+							 <br>514 238 7773</p>
+						</div>
+
+						<div class="shop-infos">
+						 <p>decoration - cadeaux - cuisine - ateliers</p>
+						</div>
+
+						</div>
+
+						<div class="site-credits">
+							<p>vous êtes bouche bées grâce à <a href="#">Dan Eap</a> pour l&apos;identité visuelle<br>et à <a href="#">camille villard</a> pour le design & l&apos;intégration du site web.
+	</p>
+						</div>
 
 					</div><!-- .site-info -->
+
 
 				</footer><!-- #colophon -->
 

@@ -1,0 +1,26 @@
+/* ----- FOOTER : FOOTER INFOS ----- */
+
+
+.site-info {
+  border: $border--medium--black;
+  text-align: center;
+  font-family: $font-family-poppins;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+  padding: 10px;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.shop-adress {
+  font-weight: $font-weight-bold;
+  grid-column: 1 / 2;
+
+}
+
+.shop-infos {
+  font-weight: $font-weight-bold;
+  grid-column: 2 / 3;
+}

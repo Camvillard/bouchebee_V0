@@ -1,0 +1,18 @@
+/* ----- FOOTER : CREDITS ----- */
+
+.site-credits {
+  margin-top: 12px;
+  text-align: center;
+  font-size: $font-size-base * 0.8;
+
+  a {
+    border: $border--thin--white;
+    padding: $text-link-padding-y $text-link-padding-x;
+    transition: all 0.4s ease-out;
+
+    &:hover {
+      border: $border--thin--pink-bold;
+      text-decoration: none;
+    }
+  }
+}
