@@ -1,13 +1,25 @@
 /* ----- FRONTPAGE : INFOS SECTION ----- */
 
+#frontpage-horaires {
+  border: $border--large--blue-midnight;
+  margin-top: -20px;
+  text-align: center;
+
+  h2 {
+    font-size: $font-size-base * 3;
+    font-weight: $font-weight-bold;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+
 
 #frontpage-infos {
-background: $yellow-bold;
   h3 {
   text-transform: uppercase;
   }
 
-  ul {
-    font-style: italic;
-  }
 }
