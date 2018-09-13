@@ -1,0 +1,41 @@
+/* ----- VARIABLES : NEW BREAKPOINTS ----- */
+
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 479px,
+  sm: 599px,
+  md: 839px,
+  lg: 1023px,
+  xl: 1279px,
+  xxl: 1439px,
+);
+
+
+/* responsive helpers
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+} // fin 840 px (md)
+
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)
+
+*/

@@ -1,0 +1,26 @@
+/* ----- ASSETS : BUTTONS ----- */
+
+
+.btn-back {
+  font-family: $font-family-poppins;
+  font-weight: $font-weight-bold;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+.btn-pink {
+  background: $pink-bold;
+  color: $white;
+
+  &:hover {
+    background: transparent;
+    color: $pink-bold;
+  }
+}
+
+.btn-simple {
+  border-bottom: $border--large--black;
+}

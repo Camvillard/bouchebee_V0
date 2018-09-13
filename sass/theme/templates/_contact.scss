@@ -3,5 +3,144 @@
 #contact-page {
   min-height: 100vh;
   background: $green-light;
-  border: $border--large--pink-bold;
+
+  &.wrapper {
+    position: relative;
+  }
+
+
+  .entry-title {
+    text-align: center;
+    color: $pink-bold;
+    font-size: $font-size-base * 3;
+    letter-spacing: 0.5rem;
+  }
+
+  .entry-content {
+    width: 60%;
+    margin: auto;
+  }
+
 }
+
+#contact-back-home {
+  position: absolute;
+  top: 45vh;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+#nf-form-1-cont {
+  margin-top: 120px;
+  font-family: $font-family-poppins;
+
+  .nf-form-fields-required {
+    text-align: center;
+    font-size: $font-size-base * 0.6;
+  }
+
+  .ninja-forms-field.nf-element{
+    border: none;
+    border-radius: 0px;
+    background: none;
+  }
+
+  .nf-field-container {
+    font-size: $font-size-base * 1.2;
+  }
+
+  ::-moz-placeholder {
+  color: $black;
+  }
+  ::-webkit-input-placeholder {
+  color: $black;
+  }
+
+  #nf-field-1-container,
+  #nf-field-2-container,
+  #nf-field-5-container, //objet
+  #nf-field-3-container {
+    border-bottom: $border--light--black;
+  }
+
+
+  // text fields
+  input[type=text],
+  input[type=email],
+  textarea,
+  input[placeholder] {
+    outline: none;
+    font-weight: $font-weight-bold;
+  }
+
+
+  // text fields
+  input[type=text]:focus,
+  input[type=email]:focus,
+  textarea:focus, {
+    outline: none;
+  }
+
+
+  // submit button
+  input#nf-field-4{
+    float: right;
+    margin-top: 20px;
+    @extend .btn-simple;
+    font-size: $font-size-base * 1.2;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+
+
+  // error message
+  .nf-error-msg {
+    font-family: $font-family-monospace;
+    color: $pink-bold;
+    font-size: $font-size-base * 0.8;
+  }
+
+} // end of #id
+
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+
+  #contact-page {
+
+    .entry-title {
+      font-size: $font-size-base * 6;
+    }
+
+    .entry-content {
+      width: 80%;
+      margin: auto;
+    }
+  }
+} // fin 840 px (md)
+
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+} // fin 1024 px (lg)
+
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)
