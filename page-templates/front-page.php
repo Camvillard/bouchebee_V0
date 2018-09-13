@@ -14,8 +14,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="frontpage-wrapper">
 
-		<?php get_template_part( 'views/frontpage-content' ); ?>
+		<?php get_template_part( 'partials/frontpage-content' ); ?>
+		<?php dynamic_sidebar( 'frontpagefooter' ); ?>
 
 </div><!-- Wrapper end -->
+
 
 <?php get_footer(); ?>

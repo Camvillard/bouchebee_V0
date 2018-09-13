@@ -1,25 +1,21 @@
 /* ----- FRONTPAGE : INFOS SECTION ----- */
 
-.frontpage-infos-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(3, 20%);
+#frontpage-infos-grid {
+  padding: 10px 20px;
 }
 
 #frontpage-horaires {
-  grid-column: 3 / 6;
-  grid-row: 1 / 3;
   border: $border--large--blue-midnight;
-  margin-top: -45px;
   text-align: center;
   position: relative;
+  margin-top: 50px;
 
   .horaires-titre {
     position: absolute;
     top: -35px;
     left: 15%;
     width: 70%;
-    background: $pink-bold;
+    background: $white;
   }
 
   h2 {
@@ -37,13 +33,94 @@
   }
 }
 
-
-
 #frontpage-infos {
-  grid-column: 7 / 10;
-  grid-row: 2 / 4;
-  h3 {
-  text-transform: uppercase;
+  margin-top: 40px;
+  color: $blue-midnight;
+}
+
+#btn-about {
+  font-family: $font-family-poppins;
+  font-weight: $font-weight-bold;
+  &::before {
+    content: "+";
+    color: $pink-bold;
+  }
+}
+
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+} // fin 840 px (md)
+
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+
+  #frontpage-infos-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 20%);
   }
 
-}
+  #frontpage-horaires {
+    grid-column: 3 / 6;
+    grid-row: 1 / 3;
+    border: $border--large--blue-midnight;
+    margin-top: -45px;
+    text-align: center;
+    position: relative;
+
+    .horaires-titre {
+      position: absolute;
+      top: -35px;
+      left: 15%;
+      width: 70%;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: $font-size-base * 3;
+    }
+
+    ul {
+      margin-top: 40px;
+      list-style: none;
+      padding-inline-start: 0px;
+      font-family: $font-family-poppins;
+    }
+  }
+
+  #frontpage-infos {
+    grid-column: 7 / 10;
+    grid-row: 2 / 4;
+    color: $blue-midnight;
+  }
+
+  #btn-about {
+    font-family: $font-family-poppins;
+    font-weight: $font-weight-bold;
+    &::before {
+      content: "+";
+      color: $pink-bold;
+    }
+  }
+
+
+
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)

@@ -1,19 +1,15 @@
 /* ----- FRONTPAGE : INTRO SECTION ----- */
 
 #frontpage-intro {
-background: $pink-bold;
-font-family: $font-family-poppins;
-
-
-  .frontpage-content {
+  background: $pink-bold;
+  font-family: $font-family-poppins;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(4, 25%);
-  }
 
   h1 {
-  color: white;
-  font-size: $font-size-base * 4.2;
+    color: white;
+    font-size: $font-size-base * 4.2;
   }
 
   #frontpage-subheader {
@@ -51,10 +47,7 @@ font-family: $font-family-poppins;
 @include media-breakpoint-up(md) {
   #frontpage-intro {
   height: 90vh;
-
-  .frontpage-content {
   grid-template-columns: repeat(8, 1fr);
-  }
 
   h1 {
   font-size: $font-size-base * 4.2;
@@ -71,11 +64,8 @@ font-family: $font-family-poppins;
     height: 90vh;
     padding-left: 10%;
     padding-right: 10%;
-
-  .frontpage-content {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 25%);
-  }
 
   #frontpage-name-bouche {
     grid-column: 1 / 8;
