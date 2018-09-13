@@ -1,16 +1,39 @@
 <div id="frontpage-intro">
   <div class="frontpage-content">
-    <h1>en voir de toutes les couleurs</h1>
-    <p class="description">Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter.</p>
+    <div id="frontpage-name-bouche">
+      <h1>bouche</h1>
+    </div>
+    <div id="frontpage-name-bee">
+      <h1>bee</h1>
+    </div>
+
+    <div id="frontpage-menu">
+      <ul>
+        <li class="menu-accent">boutique</li>
+        <li>décoration</li>
+        <li>cadeaux</li>
+        <li>cuisine</li>
+        <li class="menu-accent">et ateliers</li>
+      </ul>
+    </div>
+
+    <div id="frontpage-subheader">
+      <p>fièrement et gaiement installée dans Hochelaga, à Montréal.</p>
+    </div>
+
   </div>
 </div>
 
-<div class="container">
 
-  <div class="row">
 
-    <div class="col-md-4" id="frontpage-horaires" >
-      <h2>horaires</h2>
+<div class="frontpage-infos-grid">
+
+    <div class="" id="frontpage-horaires" >
+
+      <div class="horaires-titre">
+        <h2>horaires</h2>
+      </div>
+
       <ul class="horaires">
         <li>lundi: fermé, je me repose</li>
         <li>mardi: 10h30 - 18h00</li>
@@ -22,11 +45,12 @@
       </ul>
     </div>
 
-    <div class="col-md-8 frontpage-content" id="frontpage-infos">
-      <h3>un peu plus d'infos ici</h3>
-      <p>bouche bee c'est une trop cool boutique</p>
+    <div class="" id="frontpage-infos">
+      <h3>Bouche Bée est une boutique de décoration,</h3>
+      <p>cadeaux et papeterie, fièrement et gaiement installée dans le quartier Hochelaga à Montréal. Les produits proposés sont issus de la création locale ou de l’importation.
+Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’événements.
+</p>
     </div>
 
-  </div>
 
 </div>

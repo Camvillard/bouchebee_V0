@@ -8,7 +8,7 @@
 *
 */
 
-get_header();
+get_template_part( 'global-templates/header', 'nologo' );
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 

@@ -1,23 +1,47 @@
 /* ----- FRONTPAGE : INFOS SECTION ----- */
 
+.frontpage-infos-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 20%);
+}
+
 #frontpage-horaires {
+  grid-column: 3 / 6;
+  grid-row: 1 / 3;
   border: $border--large--blue-midnight;
-  margin-top: -20px;
+  margin-top: -45px;
   text-align: center;
+  position: relative;
+
+  .horaires-titre {
+    position: absolute;
+    top: -35px;
+    left: 15%;
+    width: 70%;
+    background: $pink-bold;
+  }
 
   h2 {
+    text-align: center;
     font-size: $font-size-base * 3;
     font-weight: $font-weight-bold;
+    color: $blue-midnight;
   }
 
   ul {
+    margin-top: 40px;
     list-style: none;
+    padding-inline-start: 0px;
+    font-family: $font-family-poppins;
   }
 }
 
 
 
 #frontpage-infos {
+  grid-column: 7 / 10;
+  grid-row: 2 / 4;
   h3 {
   text-transform: uppercase;
   }

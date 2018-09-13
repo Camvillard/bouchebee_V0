@@ -1,18 +1,121 @@
 /* ----- FRONTPAGE : INTRO SECTION ----- */
 
 #frontpage-intro {
-height: 100vh;
 background: $pink-bold;
-padding: 20% 10%;
+font-family: $font-family-poppins;
+
+
+  .frontpage-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 25%);
+  }
 
   h1 {
   color: white;
   font-size: $font-size-base * 4.2;
   }
 
-  p.description {
-  color: white;
-  margin-left: 15%;
+  #frontpage-subheader {
+    p {
+      border-top: $border--thin--white;
+      color: white;
+      font-size: $font-size-base * 1.2;
+    }
   }
 
+  #frontpage-menu {
+    color: $white;
+    ul {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+  }
+
+  .menu-accent {
+    font-weight: $font-weight-bold;
+  }
+
+
 }
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+  #frontpage-intro {
+  height: 90vh;
+
+  .frontpage-content {
+  grid-template-columns: repeat(8, 1fr);
+  }
+
+  h1 {
+  font-size: $font-size-base * 4.2;
+  }
+
+  }
+} // fin 840 px (md)
+
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+
+  #frontpage-intro {
+    height: 90vh;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  .frontpage-content {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 25%);
+  }
+
+  #frontpage-name-bouche {
+    grid-column: 1 / 8;
+    grid-row: 1 / 2;
+    text-align: right;
+  }
+
+  #frontpage-name-bee {
+    grid-column: 8 / 12;
+    grid-row: 2 / 3;
+    text-align: left;
+  }
+
+
+  #frontpage-menu {
+    grid-column: 8 / 12;
+    grid-row: 3 / 4;
+  }
+
+  #frontpage-subheader {
+    color: $white;
+    grid-column: 8 / 12;
+    grid-row: 4 / 5;
+  }
+
+  h1 {
+    font-size: $font-size-base * 8.2;
+  }
+
+  p.description {
+    margin-left: 15%;
+  }
+
+  }
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)
