@@ -1,14 +1,19 @@
 <div id="frontpage-intro">
-    <div id="frontpage-name-bouche">
+    <div id="frontpage-name-bouche" class="hidden">
       <h1>bouche</h1>
     </div>
     <div id="frontpage-name-bee">
       <h1>bee</h1>
     </div>
 
+    <!-- <div id="frontpage-name" class="hidden">
+      <h1 id="bouche">bouche</h1>
+      <h1 id="bee">bee</h1>
+    </div> -->
+
     <div id="frontpage-menu">
       <ul>
-        <li class="menu-accent">boutique</li>
+        <!-- <li class="menu-accent">boutique</li> -->
         <li>décoration</li>
         <li>cadeaux</li>
         <li>cuisine</li>
@@ -48,7 +53,7 @@
       <p>de cadeaux, papeterie et tant d'autres choses encore, fièrement et gaiement installée dans le quartier Hochelaga à Montréal. Les produits proposés sont issus de la création locale ou de l’importation.
 Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’événements.
 </p>
-<a href="#" id="btn-about" >en savoir plus</a>
+<a href="#" id="btn-about" class="btn-regular">en savoir plus</a>
     </div>
 
 
