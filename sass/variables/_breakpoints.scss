@@ -25,7 +25,6 @@ $grid-breakpoints: (
 @include media-breakpoint-up(md) {
 } // fin 840 px (md)
 
-
 // plus de 1024 px
 @include media-breakpoint-up(lg) {
 } // fin 1024 px (lg)

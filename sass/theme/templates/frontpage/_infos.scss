@@ -38,13 +38,8 @@
   color: $blue-midnight;
 }
 
-#btn-about {
-  font-family: $font-family-poppins;
-  font-weight: $font-weight-bold;
-  &::before {
-    content: "+";
-    color: $pink-bold;
-  }
+a#btn-about {
+  @extend .btn-simple-yellow;
 }
 
 
@@ -58,6 +53,11 @@
 
 // plus de 840 px
 @include media-breakpoint-up(md) {
+
+  a#btn-about {
+    font-size: $accent-link--font-size * 1.2;
+  }
+
 } // fin 840 px (md)
 
 
@@ -83,6 +83,7 @@
       top: -35px;
       left: 15%;
       width: 70%;
+      background: $pink-bold;
     }
 
     h2 {
@@ -102,15 +103,6 @@
     grid-column: 7 / 10;
     grid-row: 2 / 4;
     color: $blue-midnight;
-  }
-
-  #btn-about {
-    font-family: $font-family-poppins;
-    font-weight: $font-weight-bold;
-    &::before {
-      content: "+";
-      color: $pink-bold;
-    }
   }
 
 

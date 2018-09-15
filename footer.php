@@ -25,30 +25,35 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="site-info">
 
 						<div class="shop-adress">
-						 <p>bouche bee
-							 <br>3772, rue Ontario Est
-							 <br>514 238 7773</p>
+							<p>bouche bee
+							<br>3772, rue Ontario Est
+							<br>514 238 7773
+							</p>
 						</div>
 
 						<div class="shop-infos">
-						 <p>decoration - cadeaux - cuisine - ateliers</p>
+							<p>decoration - cadeaux - cuisine - ateliers</p>
 						</div>
 
-						</div>
+					</div>
 
-						<div class="site-credits">
-							<p>vous êtes bouche bées grâce à <a href="#">Dan Eap</a> pour l&apos;identité visuelle<br>et à <a href="#">camille villard</a> pour le design & l&apos;intégration du site web.
-	</p>
-						</div>
+				</div><!-- .site-info -->
 
-					</div><!-- .site-info -->
+			</footer><!-- #colophon -->
 
-
-				</footer><!-- #colophon -->
-
-			</div><!--col end -->
+		</div><!--col end -->
 
 		</div><!-- row end -->
+
+		<div id="instagram-footer">
+			<p>bien évidement, bouche bee est sur instagram</p>
+			<?php dynamic_sidebar( 'frontpagefooter' ); ?>
+		</div>
+
+		<div class="site-credits">
+		<p>vous êtes bouche bées grâce à <a href="#">Dan Eap</a> pour l&apos;identité visuelle et à <a href="#">camille villard</a> pour le design & l&apos;intégration du site web.
+		</p>
+		</div>
 
 	</div><!-- container end -->
 

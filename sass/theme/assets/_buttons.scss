@@ -1,19 +1,38 @@
 /* ----- ASSETS : BUTTONS ----- */
 
+.btn-regular {
+  font-family: $font-family-poppins;
+  font-weight: $font-weight-bold;
+  transition: all 0.2s ease-out;
+}
 
 .btn-back {
   font-family: $font-family-poppins;
   font-weight: $font-weight-bold;
+  font-size: $btn-link--font-size;
 
   &:hover {
     text-decoration: none;
   }
 }
 
+.btn-simple-black {
+  @extend .btn-regular;
+  border-bottom: $border--large--black;
+}
 
-.btn-pink {
+.btn-simple-yellow {
+  @extend .btn-regular;
+  color: $yellow-bold;
+  border-bottom: $border--large--yellow-bold;
+}
+
+// pink buttons
+.btn-pink-bg {
+  @extend .btn-regular;
   background: $pink-bold;
   color: $white;
+  padding: $btn-padding-y $btn-padding-x;
 
   &:hover {
     background: transparent;
@@ -21,6 +40,41 @@
   }
 }
 
-.btn-simple {
-  border-bottom: $border--large--black;
+.btn-pink-border {
+  @extend .btn-regular;
+  border: $border--large--pink-bold;
+  color: $pink-bold;
+  padding: $btn-padding-y $btn-padding-x;
+
+  &:hover {
+    background: $pink-bold;
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+// yellow buttons
+.btn-yellow-bg {
+  @extend .btn-regular;
+  background: $yellow-bold;
+  color: $white;
+  padding: $btn-padding-y $btn-padding-x;
+
+  &:hover {
+    background: transparent;
+    color: $yellow-bold;
+  }
+}
+
+.btn-yellow-border {
+  @extend .btn-regular;
+  border: $border--large--yellow-bold;
+  color: $yellow-bold;
+  padding: $btn-padding-y $btn-padding-x;
+
+  &:hover {
+    background: $yellow-bold;
+    color: $white;
+    text-decoration: none;
+  }
 }

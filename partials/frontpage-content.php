@@ -45,10 +45,10 @@
 
     <div id="frontpage-infos">
       <h3>Bouche Bée est une boutique de décoration,</h3>
-      <p>cadeaux et papeterie, fièrement et gaiement installée dans le quartier Hochelaga à Montréal. Les produits proposés sont issus de la création locale ou de l’importation.
+      <p>de cadeaux, papeterie et tant d'autres choses encore, fièrement et gaiement installée dans le quartier Hochelaga à Montréal. Les produits proposés sont issus de la création locale ou de l’importation.
 Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’événements.
 </p>
-<a href="#" id="btn-about">en savoir plus</a>
+<a href="#" id="btn-about" >en savoir plus</a>
     </div>
 
 

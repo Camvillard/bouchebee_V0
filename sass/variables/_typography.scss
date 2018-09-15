@@ -5,9 +5,20 @@
 $font-family-poppins: "Poppins", sans-serif;
 $font-family-roboto: "Roboto", sans-serif;
 
-
 $font-family-base: $font-family-roboto;
 $headings-font-family: $font-family-poppins;
 
-$headings-font-weight: 700 !default;
 $font-weight-bold: 700;
+
+$headings-font-weight: $font-weight-bold !default;
+
+
+$font-size-base: 1rem !default;
+
+// font sizes : links
+
+$accent-link--font-size: $font-size-base * 1.25;
+// tablet : $accent-link--font-size * 1.25;
+// desktop : $accent-link--font-size * 1.5;
+
+$btn-link--font-size: $font-size-base * 1.4;
