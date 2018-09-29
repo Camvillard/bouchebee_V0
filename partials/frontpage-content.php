@@ -1,6 +1,7 @@
 <div id="frontpage-intro">
     <div id="frontpage-name-bouche" class="hidden">
       <h1>bouche</h1>
+      <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_logo-white.png'; ?>" />
     </div>
     <div id="frontpage-name-bee">
       <h1>bee</h1>

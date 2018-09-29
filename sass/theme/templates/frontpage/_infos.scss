@@ -29,7 +29,7 @@
     margin-top: 40px;
     list-style: none;
     padding-inline-start: 0px;
-    
+
     li.lundi {
       margin-bottom: 10px;
       color: lighten($gray-900, 25%);
@@ -43,7 +43,7 @@
 }
 
 a#btn-about {
-  @extend .btn-simple-yellow;
+  @extend .btn-simple-blue;
 }
 
 

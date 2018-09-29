@@ -27,6 +27,12 @@
   border-bottom: $border--large--yellow-bold;
 }
 
+.btn-simple-blue {
+  @extend .btn-regular;
+  color: $blue-medium;
+  border-bottom: $border--large--blue-medium;
+}
+
 // pink buttons
 .btn-pink-bg {
   @extend .btn-regular;
