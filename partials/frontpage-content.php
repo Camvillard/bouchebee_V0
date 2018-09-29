@@ -1,30 +1,25 @@
 <div id="frontpage-intro">
-    <div id="frontpage-name-bouche" class="hidden">
-      <h1>bouche</h1>
-      <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_logo-white.png'; ?>" />
-    </div>
-    <div id="frontpage-name-bee">
-      <h1>bee</h1>
-    </div>
 
-    <!-- <div id="frontpage-name" class="hidden">
-      <h1 id="bouche">bouche</h1>
-      <h1 id="bee">bee</h1>
-    </div> -->
+<!-- provisoire -->
+  <div id="frontpage-small-logo">
+    <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_small-logo-white.svg'; ?>" />
+  </div>
 
-    <div id="frontpage-menu">
-      <ul>
-        <!-- <li class="menu-accent">boutique</li> -->
-        <li>décoration</li>
-        <li>cadeaux</li>
-        <li>cuisine</li>
-        <li class="menu-accent">et ateliers</li>
-      </ul>
-    </div>
+  <div id="frontpage-big-logo">
+    <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_big-logo-white.svg'; ?>" />
+  </div>
 
-    <div id="frontpage-subheader">
-      <p>fièrement et gaiement installée dans Hochelaga, à Montréal.</p>
-    </div>
+  <div id="frontpage-menu">
+    <ul>
+      <li class="menu-accent first-item">boutique</li>
+      <li>décoration</li>
+      <li>cadeaux</li>
+      <li>cuisine</li>
+      <li class="last-item">ateliers</li>
+    </ul>
+  </div>
+
+  <h6 class="subheader">fièrement et gaiement installée dans Hochelaga, à Montréal.</h6>
 
 </div>
 
@@ -39,7 +34,7 @@
       </div>
 
       <ul class="horaires">
-        <li class="lundi">lundi: fermé, je me repose, mais je fais sans doute des stories sur instagram</li>
+        <li class="lundi">lundi: fermé, je me repose, mais je fais sans doute <a href="https://www.instagram.com/bouchebeemtl/" target="_blank">des stories sur instagram</a></li>
         <li>mardi: 10h30 - 18h00</li>
         <li>mercredi: 10h30 - 18h00</li>
         <li>jeudi: 10h30 - 21h00</li>

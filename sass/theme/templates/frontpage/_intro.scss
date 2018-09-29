@@ -1,54 +1,78 @@
 /* ----- FRONTPAGE : INTRO SECTION ----- */
 
 #frontpage-intro {
-  min-height: 50vh;
-  background: $pink-bold;
+  // min-height: 60vh;
+  background-color: $pink-bold;
+  // background-image: url(images/pattern_1.svg) 200px 400px;
+  // z-index: 4;
   font-family: $font-family-poppins;
-
-  #frontpage-name-bouche {
-    text-align: left;
-  }
-
-  #frontpage-name-bee {
-    text-align: left;
-    padding: 30px;
-  }
-
-  #frontpage-name {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+  padding-bottom: 6vh;
 
   h1 {
     color: white;
     font-size: $font-size-base * 3.6;
   }
 
-  #frontpage-subheader {
-    width: 75%;
-    margin: auto;
-    p {
-      border-top: $border--thin--white;
-      color: white;
-      font-size: $font-size-base * 1.2;
-    }
-  }
-
-  #frontpage-menu {
+  h6.subheader {
+    width: 75vw;
+    float: right;
+    border: $border--medium--yellow-bold;
+    padding: 14px;
+    padding-right: 48px;
+    font-weight: $font-weight-semi;
     color: $white;
-    margin-left: 30vw;
-    ul {
-      list-style: none;
-      padding-inline-start: 0px;
-    }
+    background: $yellow-bold;
   }
 
-  .menu-accent {
-    font-weight: $font-weight-bold;
-  }
+} // end of #fronpage-intro
 
-
+#frontpage-big-logo {
+  display: none;
 }
+
+#frontpage-small-logo {
+  width: 80vw;
+  margin: auto;
+  padding-top: 12vh;
+  padding-bottom: 8vh;
+}
+
+#frontpage-menu {
+  color: $white;
+  margin: 20px 15vw 20px 25vw;
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+
+  li {
+    display: inline;
+    &:after {
+      content: " / ";
+    }
+
+    &.first-item {
+      display: block;
+      &:after {
+        content: "";
+      }
+    }
+
+    &.menu-accent {
+      font-weight: $font-weight-bold;
+    }
+
+    &.last-item:after {
+      content: "";
+    }
+
+  } // end of li
+
+} // end of #frontpage-menu
+
+
+
 
 // plus de 480 px
 @include media-breakpoint-up(xs) {
@@ -80,32 +104,27 @@
     padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 25%);
+    // grid-template-rows: repeat(4, 25%);
 
-  #frontpage-name-bouche {
-    grid-column: 1 / 8;
-    grid-row: 1 / 2;
-    text-align: right;
+  #frontpage-big-logo {
+    display: inline;
+    grid-column: 2 / 12;
   }
 
-  #frontpage-name-bee {
-    grid-column: 8 / 12;
-    grid-row: 2 / 3;
-    text-align: left;
-    padding: 0px;
+  #frontpage-small-logo {
+    display: none;
   }
-
 
   #frontpage-menu {
-    margin-left: 0px;
-    grid-column: 8 / 12;
-    grid-row: 3 / 4;
+    margin-left: -10px;
+    grid-column: 9 / 12;
+    // grid-row: 3 / 4;
   }
 
   #frontpage-subheader {
     color: $white;
     grid-column: 8 / 12;
-    grid-row: 4 / 5;
+    // grid-row: 4 / 5;
     width: auto;
     margin: auto;
   }
