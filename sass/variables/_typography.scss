@@ -8,13 +8,33 @@ $font-family-roboto: "Roboto", sans-serif;
 $font-family-base: $font-family-roboto;
 $headings-font-family: $font-family-poppins;
 
+
+// weights
 $font-weight-semi: 500;
 $font-weight-bold: 700;
 
 $headings-font-weight: $font-weight-bold !default;
 
+// font sizes : general (needed even if it the same value)
 
 $font-size-base: 1rem !default;
+
+// font sizes : titles
+
+$entry-title--font-size: $font-size-base * 3.8;
+// sm : $entry-title--font-size * 1.15;
+// md : $entry-title--font-size * 1.25;
+// lg : $entry-title--font-size * 1.5;
+// xl : $entry-title--font-size * 1.75;
+
+$headings-margin-bottom:      ($spacer / 2) !default;
+$headings-margin-top:      ($spacer / 2) !default;
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: $headings-margin-bottom;
+  margin-top: $headings-margin-top;
+}
 
 // font sizes : links
 

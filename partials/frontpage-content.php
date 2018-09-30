@@ -19,7 +19,9 @@
     </ul>
   </div>
 
-  <h6 class="subheader">fièrement et gaiement installée dans Hochelaga, à Montréal.</h6>
+  <div id="frontpage-subheader">
+      <h6>fièrement et gaiement installée dans Hochelaga, à Montréal.</h6>
+  </div>
 
 </div>
 

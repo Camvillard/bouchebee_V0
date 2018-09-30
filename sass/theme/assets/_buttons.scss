@@ -9,7 +9,8 @@
 .btn-back {
   font-family: $font-family-poppins;
   font-weight: $font-weight-bold;
-  font-size: $btn-link--font-size;
+  font-size: $btn-link--font-size * 0.75;
+  border-bottom: $border--medium--pink-bold;
 
   &:hover {
     text-decoration: none;
@@ -84,3 +85,37 @@
     text-decoration: none;
   }
 }
+
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+  .btn-back {
+    font-size: $btn-link--font-size * 1.2;
+  }
+} // fin 840 px (md)
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+  .btn-back {
+    font-size: $btn-link--font-size * 1.3;
+  }
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+  .btn-back {
+    font-size: $btn-link--font-size * 1.5;
+  }
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)

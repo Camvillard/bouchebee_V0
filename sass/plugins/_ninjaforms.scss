@@ -1,0 +1,75 @@
+/* ----- PLUGINS : NINJAFORMS ----- */
+
+
+#nf-form-1-cont {
+  margin-top: 120px;
+  font-family: $font-family-poppins;
+
+  .nf-form-fields-required {
+    text-align: center;
+    font-size: $font-size-base * 0.6;
+  }
+
+  .ninja-forms-field.nf-element{
+    border: none;
+    border-radius: 0px;
+    background: none;
+  }
+
+  .nf-field-container {
+    font-size: $font-size-base * 1.2;
+  }
+
+  ::-moz-placeholder {
+  color: $black;
+  }
+  ::-webkit-input-placeholder {
+  color: $black;
+  }
+
+  #nf-field-1-container,
+  #nf-field-2-container,
+  #nf-field-5-container, //objet
+  #nf-field-3-container {
+    border-bottom: $border--light--black;
+  }
+
+
+  // text fields
+  input[type=text],
+  input[type=email],
+  textarea,
+  input[placeholder] {
+    outline: none;
+    font-weight: $font-weight-bold;
+  }
+
+
+  // text fields
+  input[type=text]:focus,
+  input[type=email]:focus,
+  textarea:focus, {
+    outline: none;
+  }
+
+
+  // submit button
+  input#nf-field-4{
+    float: right;
+    margin-top: 20px;
+    @extend .btn-simple-black;
+    font-size: $font-size-base * 1.2;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+
+
+  // error message
+  .nf-error-msg {
+    font-family: $font-family-monospace;
+    color: $pink-bold;
+    font-size: $font-size-base * 0.8;
+  }
+
+} // end of #nf-form-1-cont

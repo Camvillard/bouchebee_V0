@@ -13,17 +13,6 @@
     font-size: $font-size-base * 3.6;
   }
 
-  h6.subheader {
-    width: 75vw;
-    float: right;
-    border: $border--medium--yellow-bold;
-    padding: 14px;
-    padding-right: 48px;
-    font-weight: $font-weight-semi;
-    color: $white;
-    background: $yellow-bold;
-  }
-
 } // end of #fronpage-intro
 
 #frontpage-big-logo {
@@ -71,7 +60,17 @@
 
 } // end of #frontpage-menu
 
-
+#frontpage-subheader {
+  width: 75vw;
+  float: right;
+  border: $border--medium--yellow-bold;
+  padding: 12px 48px 8px 12px;
+  color: $white;
+  background: $yellow-bold;
+  h6 {
+    font-weight: $font-weight-semi;
+  }
+}
 
 
 // plus de 480 px
@@ -106,8 +105,18 @@
     grid-template-columns: repeat(12, 1fr);
     // grid-template-rows: repeat(4, 25%);
 
+    h1 {
+      font-size: $font-size-base * 8.2;
+    }
+
+    p.description {
+      margin-left: 15%;
+    }
+  }
+
   #frontpage-big-logo {
     display: inline;
+    margin-top: 10vh;
     grid-column: 2 / 12;
   }
 
@@ -119,26 +128,36 @@
     margin-left: -10px;
     grid-column: 9 / 12;
     // grid-row: 3 / 4;
-  }
+
+    ul {
+      list-style: none;
+      padding-inline-start: 0px;
+    }
+
+    li {
+      display: block;
+      &:after {
+        content: "";
+      }
+
+    } // end of li
+
+  } // end of #frontpage-menu
 
   #frontpage-subheader {
-    color: $white;
-    grid-column: 8 / 12;
-    // grid-row: 4 / 5;
+    grid-column: 9 / 12;
+    margin-left: -10px;
     width: auto;
-    margin: auto;
+    float: left;
+    border: none;
+    border-top: $border--medium--white;
+    padding: 10px 0px;
+    color: $white;
+    background: none;
+    h6 {
+      font-weight: $font-weight-semi;
+    }
   }
-
-  h1 {
-    font-size: $font-size-base * 8.2;
-  }
-
-  p.description {
-    margin-left: 15%;
-  }
-
-  }
-
 
 } // fin 1024 px (lg)
 

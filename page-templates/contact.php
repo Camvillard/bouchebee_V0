@@ -14,8 +14,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="contact-page">
 
-	<div id="contact-back-home" class="btn-back">
-		<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
+
+	<div id="contact-back-home">
+		<i class="fa fa-arrow-left"></i>
+		<a class="btn-back"rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
 	</div>
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
