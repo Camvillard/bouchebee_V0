@@ -120,17 +120,20 @@
   }
 
   #frontpage-pattern {
+    display: inline;
     width: 563px;
     height: 700px;
     position: absolute;
     top: 8vh;
     left: 0vw;
+    z-index:3;
   }
 
   #frontpage-big-logo {
     display: inline;
     margin-top: 10vh;
     grid-column: 2 / 12;
+    z-index: 4;
   }
 
   #frontpage-small-logo {
