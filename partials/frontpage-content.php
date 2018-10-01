@@ -9,6 +9,10 @@
     <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_big-logo-white.svg'; ?>" />
   </div>
 
+  <div id="frontpage-pattern">
+    <img src="<?php echo get_template_directory_uri() . '/images/pattern_1.svg'; ?>" />
+  </div>
+
   <div id="frontpage-menu">
     <ul>
       <li class="menu-accent first-item">boutique</li>
