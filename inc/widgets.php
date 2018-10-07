@@ -121,5 +121,15 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 				'after_title'    => '</h3>',
 		) );
 
+		register_sidebar( array(
+			'name'          => __( 'Frontpage photos', 'understrap' ),
+			'id'            => 'frontpagephotos',
+			'description'   => 'Full sized wodget area to display photos',
+				'before_widget'  => '<div id="frontpagephotos" class="page-widget %2$s '. understrap_slbd_count_widgets( 'frontpagephotos' ) .'">',
+				'after_widget'   => '</div><!-- photos-widget -->',
+				'before_title'   => '<h3 class="widget-title">',
+				'after_title'    => '</h3>',
+		) );
+
 	}
 } // endif function_exists( 'understrap_widgets_init' ).

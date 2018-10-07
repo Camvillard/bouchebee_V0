@@ -57,6 +57,11 @@ Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’é
 </p>
 <a href="#" id="btn-about" class="btn-regular">en savoir plus</a>
     </div>
+</div>
 
+
+<div id="frontpage-widgets-photos">
+
+  <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
 
 </div>
