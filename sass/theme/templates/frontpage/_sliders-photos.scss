@@ -1,0 +1,86 @@
+/* ----- FRONT PAGE : ZONE PHOTOS ----- */
+
+#frontpage-widgets-photos {
+  margin-top: 40px;
+}
+
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+} // fin 840 px (md)
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+
+  #frontpage-slider-photos-1 {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  #n2-ss-2-align {
+    background: $green-light;
+    grid-column: 1 / 9;
+    position: relative;
+    clear: both;
+
+    &::after {
+      content : "";
+      color: $pink-bold;
+      background: url(http://bouchebee.local/wp-content/themes/bouchebee/images/pattern_slider-1.svg) no-repeat;
+      position: absolute;
+      background-position: bottom;
+      left: 0px;
+      bottom: 0px;
+      width: 400px;
+      height: 300px;
+      z-index: 6;
+    }
+  }
+
+  #n2-ss-2 {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 4;
+  }
+
+  #frontpage-slider-photos-2 {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  #frontpage-text-photos {
+    grid-column: 3 / 5;
+  }
+
+  #n2-ss-3-align {
+    margin-top: 40px;
+    grid-column: 7 / 12;
+    background: $blue-midnight;
+    position: relative;
+  }
+
+  #n2-ss-3 {
+    padding: 70px;
+  }
+
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)

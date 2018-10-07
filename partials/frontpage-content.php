@@ -60,8 +60,19 @@ Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’é
 </div>
 
 
-<div id="frontpage-widgets-photos">
-
+<div id="frontpage-slider-photos-1">
+  <!-- premier slider -->
   <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
+
+</div>
+
+<div id="frontpage-slider-photos-2">
+  <div id="frontpage-text-photos">
+    <p>les items sur les photos peuvent ne plus être dispo en magasin.
+      bien sûr, nous vous encourageons fortement à venir nous voir </p>
+    <a href="#">voir plus de photos</a>
+    <p class="credit-photos">crédit photos: <a href="#">Charlotte Fraday</a></p>
+  </div>
+  <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
 
 </div>
