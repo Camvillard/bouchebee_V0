@@ -6,14 +6,34 @@
   transition: all 0.2s ease-out;
 }
 
-.btn-back {
+
+// big pink button - used in special templates only
+a.btn-back-pink {
+  color: $pink-bold;
   font-family: $font-family-poppins;
   font-weight: $font-weight-bold;
   font-size: $btn-link--font-size * 0.75;
   border-bottom: $border--medium--pink-bold;
+  transition: all 0.2s ease-out;
 
   &:hover {
     text-decoration: none;
+    opacity: 0.9;
+  }
+}
+
+// big white button - used in special templates only
+a.btn-back-white {
+  color: $white;
+  font-family: $font-family-poppins;
+  font-weight: $font-weight-bold;
+  font-size: $btn-link--font-size * 0.75;
+  border-bottom: $border--medium--white;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.9;
   }
 }
 
@@ -97,21 +117,24 @@
 
 // plus de 840 px
 @include media-breakpoint-up(md) {
-  .btn-back {
+  a.btn-back-white,
+  a.btn-back-pink {
     font-size: $btn-link--font-size * 1.2;
   }
 } // fin 840 px (md)
 
 // plus de 1024 px
 @include media-breakpoint-up(lg) {
-  .btn-back {
+  a.btn-back-white,
+  a.btn-back-pink {
     font-size: $btn-link--font-size * 1.3;
   }
 } // fin 1024 px (lg)
 
 // plus de 1280px
 @include media-breakpoint-up(xl) {
-  .btn-back {
+  a.btn-back-white,
+  a.btn-back-pink {
     font-size: $btn-link--font-size * 1.5;
   }
 } // fin 1280 px (xl)
