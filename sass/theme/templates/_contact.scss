@@ -21,10 +21,9 @@
       font-size: $font-size-base * 0.85;
     }
   }
-
 }
 
-#contact-back-home {
+#btn-back-home {
   margin-left: 4vw;
   .fa {
     display: block;
@@ -80,7 +79,7 @@
     }
   }
 
-  #contact-back-home {
+  #btn-back-home {
     position: relative;
     .fa {
       position: absolute;
@@ -88,13 +87,12 @@
       left: 0;
       font-size: $font-size-base * 2;
     }
-    .btn-back {
+    .btn-back-pink {
       position: absolute;
       top: 45vh;
       left: 0;
       transform: rotate(-90deg);
     }
-
   }
 
 
