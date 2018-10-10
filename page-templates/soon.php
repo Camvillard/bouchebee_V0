@@ -15,30 +15,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="wrapper" id="comingsoon-page">
 
 
-	<div id="contact-back-home">
+	<div id="btn-back-home">
 		<i class="fa fa-arrow-left"></i>
-		<a class="btn-back"rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
+		<a class="btn-back-white" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
 	</div>
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
-
-		<div class="row">
-
-			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'loop-templates/content', 'page' ); ?>
+						<?php get_template_part( 'loop-templates/content', 'empty' ); ?>
 
 					<?php endwhile; // end of the loop. ?>
 
 				</main><!-- #main -->
-
-			</div><!-- #primary -->
-
-		</div><!-- .row end -->
 
 	</div><!-- Container end -->
 

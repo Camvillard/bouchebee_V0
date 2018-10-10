@@ -1,0 +1,70 @@
+/* ----- TEMPLATES : COMING SOON ----- */
+
+#comingsoon-page {
+  background-color: $blue-medium;
+  min-height: 100vh;
+  color: $white;
+
+  .container {
+    // border: $border--medium--white;
+    width: 65%;
+    margin: auto;
+  }
+}
+
+#btn-back-home {
+  margin-left: 4vw;
+  .fa {
+    display: block;
+    color: $white;
+  }
+}
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+  .btn-back-white {
+    font-size: $btn-link--font-size * 1.2;
+  }
+} // fin 840 px (md)
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+  .btn-back-white {
+    font-size: $btn-link--font-size * 1.3;
+  }
+
+  #btn-back-home {
+    position: relative;
+    .fa {
+      position: absolute;
+      top: 45vh;
+      left: 0;
+      font-size: $font-size-base * 2;
+    }
+    .btn-back-white {
+      position: absolute;
+      top: 45vh;
+      left: 0;
+      transform: rotate(-90deg);
+    }
+  }
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+  .btn-back-white {
+    font-size: $btn-link--font-size * 1.5;
+  }
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)
