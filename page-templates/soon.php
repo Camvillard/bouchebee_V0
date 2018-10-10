@@ -1,17 +1,24 @@
 <?php
 /**
- * Template Name: Full Width Page
- *
- * Template for displaying a page without sidebar even if a sidebar widget is published.
- *
- * @package bouchebee
- */
+* Template Name: Coming soon
+*
+* This template is for the front page
+*
+* @package bouchebee
+*
+*/
 
-get_header();
+get_template_part( 'global-templates/header', 'empty' );
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper" id="full-width-page-wrapper">
+<div class="wrapper" id="comingsoon-page">
+
+
+	<div id="contact-back-home">
+		<i class="fa fa-arrow-left"></i>
+		<a class="btn-back"rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
+	</div>
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 
@@ -25,15 +32,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php get_template_part( 'loop-templates/content', 'page' ); ?>
 
-						<?php
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-
-							comments_template();
-
-						endif;
-						?>
-
 					<?php endwhile; // end of the loop. ?>
 
 				</main><!-- #main -->
@@ -46,4 +44,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- Wrapper end -->
 
-<?php get_footer(); ?>
+<?php get_template_part( 'global-templates/footer', 'empty' ); ?>

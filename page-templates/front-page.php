@@ -4,7 +4,7 @@
 *
 * This template is for the front page
 *
-* @package cdltbisou_starter
+* @package bouchebee
 *
 */
 

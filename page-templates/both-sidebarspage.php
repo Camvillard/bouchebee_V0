@@ -4,7 +4,7 @@
  *
  * This template can be used to override the default template and sidebar setup
  *
- * @package understrap
+ * @package bouchebee
  */
 
 get_header();
@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div><!-- #primary -->
 
 			<?php get_template_part( 'sidebar-templates/sidebar', 'right' ); ?>
-			
+
 		</div><!-- .row -->
 
 	</div><!-- Container end -->

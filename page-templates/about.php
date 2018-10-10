@@ -4,7 +4,7 @@
 *
 * This template is for the about page
 *
-* @package cdltbisou_starter
+* @package bouchebee
 *
 */
 
