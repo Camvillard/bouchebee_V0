@@ -1,7 +1,27 @@
 /* ----- FRONT PAGE : ZONE PHOTOS ----- */
 
-#frontpage-widgets-photos {
-  margin-top: 40px;
+
+#frontpage-slider-photos-1 {
+  padding: 10px 20px;
+  margin: 40px auto 40px;
+}
+
+#frontpage-slider-photos-2 {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+#frontpage-text-photos {
+  .credit-photos {
+    margin-top: 20px;
+    border-top : $border--medium--pink-bold;
+    padding-top: 12px;
+    text-align: right;
+    a {
+      display: block;
+      font-family: $headings-font-family;
+    }
+  }
 }
 
 
@@ -40,8 +60,8 @@
       background-position: bottom;
       left: 0px;
       bottom: 0px;
-      width: 400px;
-      height: 300px;
+      width: 450px;
+      height: 350px;
       z-index: 6;
     }
   }
@@ -58,21 +78,34 @@
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    align-items: center;
   }
 
   #frontpage-text-photos {
     grid-column: 3 / 5;
+    .credit-photos {
+      margin-top: 20px;
+      border-top : $border--medium--pink-bold;
+      padding-top: 12px;
+      text-align: right;
+      a {
+        display: block;
+      }
+    }
   }
 
   #n2-ss-3-align {
     margin-top: 40px;
-    grid-column: 7 / 12;
+    grid-column: 6 / 12;
     background: $blue-midnight;
     position: relative;
   }
 
   #n2-ss-3 {
     padding: 70px;
+    &.n2-ss-slider-1 {
+      border: $border-test;
+    }
   }
 
 } // fin 1024 px (lg)
