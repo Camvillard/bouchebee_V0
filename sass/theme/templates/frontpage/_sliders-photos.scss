@@ -12,15 +12,21 @@
 }
 
 #frontpage-text-photos {
+  p.accent-text {
+    font-family: $headings-font-family;
+    max-width: 80%;
+    font-weight: $font-weight-bold;
+  }
+  a {
+    display: block;
+    font-family: $headings-font-family;
+  }
   .credit-photos {
     margin-top: 20px;
     border-top : $border--medium--pink-bold;
     padding-top: 12px;
     text-align: right;
-    a {
-      display: block;
-      font-family: $headings-font-family;
-    }
+    font-size: $font-size-base * 0.8;
   }
 }
 

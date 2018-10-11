@@ -68,9 +68,10 @@ Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’é
 
 <div id="frontpage-slider-photos-2">
   <div id="frontpage-text-photos">
-    <p>être bouche bée devant des photos, c'est bien, être bouche bée en vrai, c'est mieux !
-    Passez en magasin pour découvrir notre sélection!
-  (pssst: les items en photo peuvent ne plus être disponibles, n'hésitez pas à nous glisser un petit mot si vous cherchez quelque chose en particulier!) </p>
+    <p class ="accent-text">être bouche bée devant des photos, c'est bien, être bouche bée en vrai, c'est mieux !</p>
+      <p>Passez en magasin pour découvrir notre sélection!
+    (pssst: les items en photo peuvent ne plus être disponibles, n'hésitez pas à nous glisser un petit mot si vous cherchez quelque chose en particulier!) </p>
+
     <a href="#">voir plus de photos</a>
     <p class="credit-photos">crédit photos: <a href="#">Charlotte Faraday</a></p>
   </div>
