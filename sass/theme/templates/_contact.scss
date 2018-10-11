@@ -21,15 +21,17 @@
       font-size: $font-size-base * 0.85;
     }
   }
+
+  #btn-back-home {
+    margin-left: 4vw;
+    .fa {
+      display: block;
+      color: $pink-bold;
+    }
+  }
+
 }
 
-#btn-back-home {
-  margin-left: 4vw;
-  .fa {
-    display: block;
-    color: $pink-bold;
-  }
-}
 
 
 

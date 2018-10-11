@@ -14,11 +14,16 @@ a.btn-back-pink {
   font-weight: $font-weight-bold;
   font-size: $btn-link--font-size * 0.75;
   border-bottom: $border--medium--pink-bold;
-  transition: all 0.2s ease-out;
+  padding-left: 8px;
+  padding-right: 9px;
+  padding-bottom: 8px;
+  transition: all 0.3s ease-out;
 
   &:hover {
     text-decoration: none;
     opacity: 0.9;
+    background-color: $pink-bold;
+    color: $white;
   }
 }
 
@@ -29,11 +34,16 @@ a.btn-back-white {
   font-weight: $font-weight-bold;
   font-size: $btn-link--font-size * 0.75;
   border-bottom: $border--medium--white;
-  transition: all 0.2s ease-out;
+  padding-left: 8px;
+  padding-right: 9px;
+  padding-bottom: 8px;
+  transition: all 0.3s ease-out;
 
   &:hover {
     text-decoration: none;
-    opacity: 0.9;
+    opacity: 1;
+    background-color: $white;
+    color: $black;
   }
 }
 
