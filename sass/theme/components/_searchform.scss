@@ -1,0 +1,28 @@
+/* ----- COMPONENTS : SEARCHFORM ----- */
+
+.custom-search {
+
+  .input-group {
+    display: inline-block;
+  }
+
+  .form-control {
+    width: 100%;
+    border-radius: 0px !important;
+  }
+
+  #searchsubmit {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: $font-size-base * 2;
+  }
+
+  input[type=submit] {
+    border-bottom: $border--medium--white !important;
+    color: $white;
+  }
+
+}

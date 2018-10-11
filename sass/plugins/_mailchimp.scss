@@ -1,0 +1,24 @@
+/* ----- PLUGIN : MAILCHIMP ----- */
+
+
+.mc4wp-form-fields {
+  font-family: $headings-font-family;
+  display: block;
+
+  input[type=email] {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input[type=submit] {
+    border: none;
+    padding: 12px 20px;
+    text-transform: lowercase;
+  }
+}
