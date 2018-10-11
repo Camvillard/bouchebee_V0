@@ -100,18 +100,35 @@
     }
   }
 
+
+
+
+
   #n2-ss-3-align {
     margin-top: 40px;
     grid-column: 6 / 12;
     background: $blue-midnight;
     position: relative;
+    clear: both;
+
+    &::after {
+      content : "";
+      background: url(http://bouchebee.local/wp-content/themes/bouchebee/images/pattern_2.svg) no-repeat;
+      position: absolute;
+      right: -200px;
+      top: -40px;
+      width: 470px;
+      height: 370px;
+      z-index: 6;
+    }
+
+    .n2-ss-slider-1 {
+      margin: auto;
+    }
   }
 
   #n2-ss-3 {
-    padding: 70px;
-    &.n2-ss-slider-1 {
-      border: $border-test;
-    }
+    padding: 60px;
   }
 
 } // fin 1024 px (lg)
