@@ -35,14 +35,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<?php echo do_shortcode('[mc4wp_form id="76"]'); ?>
 					</div>
 
-
-
 					</div>
 
 				</main><!-- #main -->
 
 
 	</div><!-- Container end -->
+
+	<div id="comingsoon-pattern">
+		<img src="<?php echo get_template_directory_uri() . '/images/pattern_2.svg'; ?>" />
+	</div>
 
 </div><!-- Wrapper end -->
 

@@ -18,6 +18,31 @@
   }
 }
 
+#comingsoon-pattern {
+  width: 580px;
+  height: 580px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+// mailchimp form
+#mc4wp-form-1 {
+
+  input[type=email] {
+    &:focus {
+      color: $white;
+      border-bottom: $border--medium--white
+    }
+  }
+
+  ::placeholder {
+    color: $white;
+  }
+
+}
+
 // plus de 480 px
 @include media-breakpoint-up(xs) {
 } // fin 480 px (xs)
@@ -61,6 +86,7 @@
   #comingsoon-page #content {
     grid-column: 4 / 10;
     margin: auto;
+    z-index: 4;
   }
 
 } // fin 1024 px (lg)
