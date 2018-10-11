@@ -30,12 +30,16 @@
     list-style: none;
     padding-inline-start: 0px;
 
-    li.lundi {
-      margin-bottom: 10px;
-      color: lighten($gray-900, 25%);
+      .lundi {
+        margin-bottom: 10px;
+        color: lighten($gray-900, 25%);
+        font-size: $font-size-base * 0.9;
+        a {
+          display: block;
+        }
+      }
     }
   }
-}
 
 #frontpage-infos {
   margin-top: 40px;
@@ -95,8 +99,10 @@ a#btn-about {
       font-size: $font-size-base * 3;
     }
 
-    ul {
+    ul.horaires  {
       margin-top: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
   }

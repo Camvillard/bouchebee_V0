@@ -40,13 +40,13 @@
       </div>
 
       <ul class="horaires">
-        <li class="lundi">lundi: fermé, je me repose, mais je fais sans doute <a href="https://www.instagram.com/bouchebeemtl/" target="_blank">des stories sur instagram</a></li>
-        <li>mardi: 10h30 - 18h00</li>
-        <li>mercredi: 10h30 - 18h00</li>
-        <li>jeudi: 10h30 - 21h00</li>
-        <li>vendredi: 10h30 - 21h00</li>
-        <li>samedi: 10h00 - 17h00</li>
-        <li>dimanche: 10h00 - 17h00</li>
+        <li>lundi: fermé, je me repose, <div class="lundi">mais je fais sans doute des stories <a href="https://www.instagram.com/bouchebeemtl/" target="_blank">sur instagram</a></div></li>
+        <li>mardi: 11h00 - 18h00</li>
+        <li>mercredi: 11h00 - 18h00</li>
+        <li>jeudi: 11h00 - 21h00</li>
+        <li>vendredi: 11h00 - 21h00</li>
+        <li>samedi: 11h00 - 17h00</li>
+        <li>dimanche: 11h00 - 17h00</li>
       </ul>
     </div>
 
