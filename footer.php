@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div><!-- row end -->
 
 		<div id="instagram-footer">
-			<p>bouche bee est sur instagram</p>
+			<p>bouche bee est bien évidemment sur instagram</p>
 			<?php dynamic_sidebar( 'frontpagefooter' ); ?>
 		</div>
 
