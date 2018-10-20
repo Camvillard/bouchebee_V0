@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="hfeed site" id="page">
 
-<!-- ******************* The Custon logo area ******************* -->
+<!-- ******************* The Custom logo area ******************* -->
 
 <div id="wrapper-logo" itemscope itemtype="http://schema.org/WebSite">
 
