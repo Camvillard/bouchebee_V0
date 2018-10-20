@@ -1,6 +1,34 @@
 /* ----- FOOTER : FOOTER GENERAL ----- */
 
 .site-footer {
-  width: 75%;
+  width: 82vw;
   margin: auto !important;
 }
+
+// plus de 480 px
+@include media-breakpoint-up(xs) {
+} // fin 480 px (xs)
+
+// plus de 600 px
+@include media-breakpoint-up(sm) {
+} // fin 600 px (sm)
+
+// plus de 840 px
+@include media-breakpoint-up(md) {
+} // fin 840 px (md)
+
+// plus de 1024 px
+@include media-breakpoint-up(lg) {
+  .site-footer {
+    width: 64vw;
+    margin: auto !important;
+  }
+} // fin 1024 px (lg)
+
+// plus de 1280px
+@include media-breakpoint-up(xl) {
+} // fin 1280 px (xl)
+
+// plus de 1440px
+@include media-breakpoint-up(xxl) {
+} // fin 1440 px (xxl)

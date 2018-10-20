@@ -8,6 +8,12 @@
     width: 82vw;
     z-index: 4;
   }
+  h1.entry-title {
+    margin-bottom: 40px;
+    span {
+      border-bottom: $border--large--blue-midnight;
+    }
+  }
 }
 
 
@@ -28,17 +34,21 @@
 
   #about-page-wrapper {
     .container {
-      width: 65vw;
+      width: 64vw;
+      margin-top: 50px;
     }
+
   }
 
-  #aboutpage-pattern img {
-    position: fixed;
-    bottom: 2vh;
-    left: -10vw;
-    width: 482px;
-    height: 600px;
+  #aboutpage-pattern  {
     z-index: 1;
+    img {
+      position: fixed;
+      bottom: 2vh;
+      left: -10vw;
+      width: 482px;
+      height: 600px;
+    }
   }
 } // fin 1024 px (lg)
 
