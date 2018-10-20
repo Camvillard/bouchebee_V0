@@ -1,14 +1,5 @@
-/* ----- SPECIAL PAGE TEMPLATES : ABOUT PAGE ----- */
+/* ----- HEADER : custom logo ----- */
 
-
-
-#about-page-wrapper {
-  .container {
-    position: relative;
-    width: 82vw;
-    z-index: 4;
-  }
-}
 
 
 // plus de 480 px
@@ -25,21 +16,15 @@
 
 // plus de 1024 px
 @include media-breakpoint-up(lg) {
+  #wrapper-logo {
+    margin-left: 4vw;
+    margin-top: 30px;
 
-  #about-page-wrapper {
-    .container {
-      width: 65vw;
-    }
+  }
+  .custom-logo-link {
+    max-width: 45%;
   }
 
-  #aboutpage-pattern img {
-    position: fixed;
-    bottom: 2vh;
-    left: -10vw;
-    width: 482px;
-    height: 600px;
-    z-index: 1;
-  }
 } // fin 1024 px (lg)
 
 // plus de 1280px

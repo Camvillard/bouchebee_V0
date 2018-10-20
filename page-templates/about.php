@@ -8,11 +8,12 @@
 *
 */
 
-get_header();
+get_template_part( 'global-templates/header', 'side' );
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper" id="full-width-page-wrapper">
+<div class="wrapper" id="about-page-wrapper">
+
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 
@@ -48,3 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- Wrapper end -->
 
 <?php get_footer(); ?>
+
+<div id="aboutpage-pattern">
+	<img src="<?php echo get_template_directory_uri() . '/images/pattern_1.svg'; ?>" />
+</div>
