@@ -19,7 +19,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- Wrapper end -->
 
 <div id="thankyou-back-home">
-	<a class="btn-back" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"> retour au site</a>
+	<a class="btn-back-blue" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>"  itemprop="url">
+    <span class="data-link">retour à l'accueil</span>
+  </a>
 </div>
 
 <?php get_template_part( 'global-templates/footer', 'empty' ); ?>

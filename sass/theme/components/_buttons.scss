@@ -27,6 +27,30 @@ a.btn-back-pink {
   }
 }
 
+// big pink button - used in special templates only
+a.btn-back-blue {
+  color: $blue-medium;
+  font-family: $headings-font-family;
+  font-weight: $font-weight-bold;
+  font-size: $btn-link--font-size * 0.75;
+  border-bottom: $border--medium--blue-medium;
+  border-top: $border--medium--white;
+  padding-bottom: 4px;
+  padding-top: 4px;
+
+  &:hover {
+    letter-spacing: .15rem;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    // opacity: 0.9;
+    border-top: $border--medium--blue-medium;
+    background-color: $blue-medium;
+    color: $white;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
 // big white button - used in special templates only
 a.btn-back-white {
   color: $white;

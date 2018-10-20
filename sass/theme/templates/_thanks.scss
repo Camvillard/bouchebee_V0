@@ -11,27 +11,28 @@
   }
 
   .entry-subtitle {
-    border-top: $border--medium--blue-medium;
-    color: $blue-medium;
+    margin-top: 1rem;
     font-weight: $font-weight-semi;
+    border-top: $border--huge--blue-medium;
     h6 {
-      padding-top: 0.5rem;
+      color: $blue-medium;
+      padding-top: 1rem;
     }
   }
 }
 
 .contributor-section {
-  margin: 40px auto 60px;
+  margin: 20px auto 40px;
 }
 
 .contributor-type {
-  border: $border--large--blue-midnight;
-  width: 80vw;
-  margin: 10px auto 18px;
-  text-align: center;
-    h3 {
+  // width: 80vw;
+  margin-bottom: 28px;
+  // text-align: center;
+    span {
+      border-bottom: $border--large--blue-midnight;
       margin-top: $headings-margin-top;
-      padding: 12px;
+      padding-bottom: 8px;
     }
 }
 
@@ -46,45 +47,57 @@
 
 // plus de 840 px
 @include media-breakpoint-up(md) {
-  // #thankyou-page {
-  //   display: grid;
-  //   grid-template-columns: repeat(8,1fr);
-  // }
+
 } // fin 840 px (md)
 
 // plus de 1024 px
 @include media-breakpoint-up(lg) {
 
-  #thankyou-title {
+  #thankyou-page {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    .entry-title {
-      grid-column: 3 / 10;
-      font-size: $entry-title--font-size * 1.5;
-    }
-    .entry-subtitle {
-      grid-column: 3 / 10;
-    }
+  }
+
+  #thankyou-title {
+    padding-top: 4vh;
+    background: $white;
+    position: sticky;
+    top: 1vh;
+    clear: both;
+    z-index: 100;
+    grid-column: 4 / 10;
+  }
+
+  #content-thankyou {
+    margin-top: 20px;
+    z-index: 1;
+    grid-column: 5 / 9;
+    // display: grid;
+    // grid-template-columns: repeat(12,1fr);
   }
 
 
-  .contributor-section {
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    align-items: center;
+  #big-fan,
+  #simple-fan,
+  #fan-merci {
+    // grid-column: 4 / 10;
   }
 
   .contributor-type {
-    width: auto;
-    // border: none;
-    // border-bottom: $border--medium--blue-midnight;
-    grid-column: 3 / 5;
-    text-align: left;
+    margin-left: -2vw;
   }
 
-  .contributor-names {
-    grid-column: 5 / 10;
-  }
+ #thankyou-back-home {
+   grid-column: 5 / 9;
+   text-align: center;
+ }
+
+
+
+  //
+  // .contributor-names {
+  //   grid-column: 5 / 10;
+  // }
 
 } // fin 1024 px (lg)
 
