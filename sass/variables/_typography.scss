@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 // font sizes : links
-
+$nav-links--font-family: $headings-font-family;
 $accent-link--font-size: $font-size-base * 1.25;
 // tablet : $accent-link--font-size * 1.25;
 // desktop : $accent-link--font-size * 1.5;
