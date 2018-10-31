@@ -27,7 +27,7 @@
 
    	<!-- ******************* The Navbar Area ******************* -->
 
- 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+ 	<div id="wrapper-navbar-side" itemscope itemtype="http://schema.org/WebSite">
 
     <nav class="navbar navbar-expand-md navbar-light bg-secondary">
 
