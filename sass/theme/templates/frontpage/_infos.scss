@@ -80,7 +80,7 @@ a#btn-about {
 
   #frontpage-horaires {
     grid-column: 3 / 6;
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 4;
     border: $border--large--blue-midnight;
     margin-top: -50px;
     text-align: center;
@@ -91,7 +91,7 @@ a#btn-about {
       top: -35px;
       left: 10%;
       width: 80%;
-      background: $pink-bold;
+      background: $green-light;
     }
 
     h2 {
@@ -109,7 +109,7 @@ a#btn-about {
 
   #frontpage-infos {
     grid-column: 8 / 12;
-    grid-row: 2 / span 2;
+    grid-row: 2 / span 5;
     color: $blue-midnight;
   }
 

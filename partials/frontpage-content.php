@@ -6,11 +6,11 @@
   </div>
 
   <div id="frontpage-big-logo">
-    <img src="<?php echo get_template_directory_uri() . '/images/bbmtl_big-logo-white.svg'; ?>" />
+    <img src="<?php echo get_template_directory_uri() . '/images/biglogo-rose.svg'; ?>" />
   </div>
 
   <div id="frontpage-pattern">
-    <img src="<?php echo get_template_directory_uri() . '/images/pattern_1.svg'; ?>" />
+    <img src="<?php echo get_template_directory_uri() . '/images/pattern_1-rose.svg'; ?>" />
   </div>
 
   <div id="frontpage-menu">
@@ -28,8 +28,6 @@
   </div>
 
 </div>
-
-
 
 <div id="frontpage-infos-grid">
 
@@ -73,8 +71,8 @@ Ce joli espace ouvre également ses portes lors d’ateliers créatifs et d’é
     (pssst: les items en photo peuvent ne plus être disponibles, n'hésitez pas à nous glisser un petit mot si vous cherchez quelque chose en particulier!) </p>
 
     <a href="#">voir plus de photos</a>
-    <p class="credit-photos">crédit photos: <a href="#">Charlotte Faraday</a></p>
+    <p class="credit-photos">crédit photos: <a href="http://www.charlottefaraday.com/" target="_blank">Charlotte Faraday</a></p>
   </div>
-  <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
+  <?#php echo do_shortcode('[smartslider3 slider=3]'); ?>
 
 </div>

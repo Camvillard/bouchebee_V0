@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 
 		<div class="site-credits">
-		<p>vous êtes bouche bées grâce à <a href="#">Dan Eap</a> pour l&apos;identité visuelle et à <a href="#">camille villard</a> pour le design & l&apos;intégration du site web.
+		<p>vous êtes bouche bées grâce à <a href="#">Dan Eap</a> pour l&apos;identité visuelle et à <a href="https://camillevillard.com" target="_blank">camille villard</a> pour le design & l&apos;intégration du site web.
 		</p>
 		</div>
 

@@ -1,7 +1,7 @@
 /* ----- FRONTPAGE : INTRO SECTION ----- */
 
 #frontpage-intro {
-  background-color: $pink-bold;
+  background-color: $green-light;
   font-family: $headings-font-family;
   padding-bottom: 6vh;
   position: relative;
@@ -29,7 +29,7 @@
 }
 
 #frontpage-menu {
-  color: $white;
+  color: $pink-bold;
   margin: 20px 15vw 20px 25vw;
 
   ul {
@@ -65,7 +65,7 @@
 #frontpage-subheader {
   width: 75vw;
   float: right;
-  border: $border--medium--yellow-bold;
+  border: $border--medium--pink-bold;
   padding: 12px 48px 8px 12px;
   color: $white;
   background: $yellow-bold;
@@ -163,7 +163,7 @@
     width: auto;
     float: left;
     border: none;
-    border-top: $border--medium--white;
+    border-top: $border--medium--blue-midnight;
     padding: 10px 0px;
     color: $white;
     background: none;
